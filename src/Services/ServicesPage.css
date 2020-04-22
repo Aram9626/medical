@@ -5,7 +5,7 @@
     margin: 0 auto
 }
 .cardiogram>.hr1 {
-    border: 2.5px solid #2b5c9e;
+    border: 1px solid #2b5c9e;
     position: absolute;
     width: 100%;
     top: 115px;
