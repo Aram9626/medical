@@ -1,0 +1,138 @@
+.footer{
+    background: #2f5c9d;
+}
+.foot>.img{
+    margin-left: -70px;
+}
+.footer>.hr> hr{
+    border:1px solid white;
+}
+.foot{
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: white;
+}
+.footTitle{
+    width: 85%;
+}
+.footNav{
+    width: 250px;
+    float: right;
+}
+.footNav>.container>.row>.col-4{
+    padding: 0 0;
+}
+.footNav>.container>.row>.bottom{
+    margin-top: 15px;
+}
+.footContact{
+    margin-top: 35px;
+}
+.footContact>.row>.col-sm-4{
+    text-align: right;
+    padding-right: 0;
+}
+.footContact>.row>.col-sm-4>a>.fab{
+    margin-left: 25px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.contactFooter>.row>.col-md-auto{
+    padding-left: 0;
+    padding-right: 10px;
+}
+/*.contactFooter>.row>.em{*/
+/*    margin-left: -30px;*/
+/*}*/
+/*.contactFooter>.row>.ad{*/
+/*    margin-left: 30px;*/
+/*}*/
+.contactFooter>.row>.col-md-auto>div .fas{
+    font-size: 24px;
+    color: white;
+}
+.contactFooter>.row>.col-md-auto>div span{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.foot>hr{
+    border: 1px solid #5378ae;
+}
+.linkFooter{
+    color: white;
+}
+.entTitle{
+    color: #abbfdc;
+}
+.end{
+    text-align: center;
+    padding-bottom: 20px;
+}
+a:hover {
+    color: #080808 !important;
+    text-decoration: none !important;
+}
+@media (max-width: 425px) {
+    .footNav {
+        float: none;
+        margin-top: 10px;
+    }
+    .foot>.img {
+        margin-left: -10px !important;
+    }
+    .footContact>.row>.col-sm-4 {
+        text-align: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .contactFooter>.row>.em {
+        margin-left: 0 !important;
+    }
+    .contactFooter>.row>.ad{
+        margin-left: 0 !important;
+    }
+    .contactFooter>.row>.col-md-auto {
+        margin: 5px 0 !important;
+    }
+    .contactFooter>.row>.col-md-auto{
+        padding: 0 !important;
+    }
+}
+@media (max-width: 768px) {
+    .foot>.img {
+        margin-left: -20px;
+    }
+    .contactFooter>.row>.col-md-auto>div  span {
+        font-size: 8px !important;
+        margin-left: 3px !important;
+    }
+    .contactFooter>.row>.col-md-auto>div .fas {
+        font-size: 18px;
+    }
+    .footContact>.row>.col-sm-4>a>.fab {
+        margin-left: 0;
+    }
+    /*.contactFooter>.row>.em{*/
+    /*    margin-left: -30px;*/
+    /*}*/
+}
+@media (max-width: 1024px){
+    .foot>.img {
+        margin-left: -25px;
+    }
+    .contactFooter>.row>.col-md-auto>div> span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .contactFooter>.row>.col-md-auto{
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    /*.contactFooter>.row>.call{*/
+    /*    padding-left: 0;*/
+    /*    padding-right: 10px;*/
+    /*}*/
+}

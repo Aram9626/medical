@@ -1,0 +1,43 @@
+.AboutTeam{
+    background: #f8f8f8;
+    margin-top: 100px;
+}
+.AboutTeam>hr{
+    border: 1px solid rgb(47,92,157);
+    width: 12%;
+    float: left;
+    margin-left: 60px;
+}
+.AboutTeam>.container>.row>.col-md-auto>h1{
+    color: #2f5c9d;
+    margin-left: 10px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.AboutTeam>.container>.row>.col-md-auto>div{
+    width: 90%;
+    margin-left: 10px;
+    padding-bottom: 100px;
+    font-weight: 500;
+}
+@media (max-width: 1024px) {
+    .AboutTeam>.container{
+        width: 85%;
+    }
+    .AboutTeam>hr{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .AboutTeam > .container > .row > .col-md-auto > h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 425px) {
+    .AboutTeam>.container>.row>.col-md-auto>div {
+        font-size: 12px;
+    }
+    .AboutTeam>.container>.row>.col-md-auto>h1 {
+        font-size: 30px;
+    }
+}

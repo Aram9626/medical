@@ -1,0 +1,35 @@
+.col6>.row{
+    margin: 0 0;
+}
+.comp6{
+    padding-bottom: 100px;
+}
+
+.revers{
+   flex-direction: row-reverse !important;
+}
+.comp6Title {
+    margin-left: 15px;
+    padding-bottom: 100px;
+}
+.col6>.row>.col-sm>.title>div{
+    width: 90%;
+}
+@media  (max-width: 425px) {
+    .comp6Title {
+        font-size: 23px !important;
+    }
+    .coltitle .title> h3 {
+        font-size: 23px;
+    }
+}
+@media  (max-width: 768px) {
+    .comp6Title {
+        font-size: 28px;
+    }
+}
+@media  (max-width: 1024px){
+    .comp6Title {
+        margin-left: 10px ;
+    }
+}

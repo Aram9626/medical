@@ -1,0 +1,24 @@
+.General{
+    padding-bottom: 80px;
+    background-image: url(http://localhost:3000/carehover.svg);
+    background-repeat: no-repeat;
+    background-position:right center;
+
+}
+.General>.container>.row>.col-12>h1{
+    color: #2f5c9d;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+@media (max-width: 425px) {
+    .General>.container>.row>.col-12>h1{
+        font-size: 27px !important;
+    }
+}
+@media (max-width: 512px) {
+    .General{
+        background-size: 80%;
+    }
+}

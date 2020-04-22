@@ -1,0 +1,67 @@
+.Navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar-nav>.active{
+    cursor: default;
+    font-weight: 700;
+}
+.nav{
+    width: 60%;
+    padding-top: 10px;
+}
+.nav-link{
+    padding-left: 40px !important;
+    color: black !important;
+}
+
+.icons{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-align: right;
+}
+.fab{
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.fa-facebook-square{
+    color:#2a80d5
+}
+.fa-twitter-square{
+    color:#2fc4f4
+}
+.fa-linkedin{
+    color:#0077b7
+}
+.fa-search{
+    color:#707070
+}
+.clk{
+    margin-left: 70px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sub{
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 5px;
+}
+.search{
+    border: white;
+    border-bottom: 0.5px solid gray;
+}
+input:focus{
+    outline: none;
+}
+@media (max-width: 425px) {
+    .search{
+        width: 120px;
+    }
+    .fab{
+        padding: 0 5px;
+    }
+}

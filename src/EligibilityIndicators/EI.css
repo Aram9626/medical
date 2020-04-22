@@ -1,0 +1,25 @@
+.contTitle{
+    margin: 25px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.EIhr{
+    width: 90%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.EIhr>hr{
+    border: 1.5px solid #2f5c9d;
+    margin: 40px 0;
+}
+.CallBTN{
+    margin: 25px 0;
+    width: 100%;
+    cursor: default !important;
+}
+.col84{
+    padding-bottom: 60px;
+}

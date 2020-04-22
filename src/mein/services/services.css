@@ -1,0 +1,38 @@
+.services>.container{
+    margin-top: 30px;
+}
+.services p{
+    color: #2f5c9d;
+}
+.services>.container>.row .fas{
+    color: #2f5c9d;
+    font-size: 70px;
+    margin: 30px 0;
+}
+.services>.container>.row{
+    text-align: center;
+}
+.services > .container > .row > .col-4{
+    text-align: -webkit-center;
+}
+.serviceTitle {
+    margin-left: 110px;
+}
+@media (max-width: 425px) {
+    .services > .container > .row .fas {
+        font-size: 50px;
+    }
+    .serviceTitle {
+        font-size: 27px !important;
+        margin-left: 30px !important;
+    }
+}
+@media (max-width: 1024px){
+    .hr> hr {
+        margin-left: 15px;
+    }
+    .serviceTitle {
+        font-size: 35px;
+        margin-left: 60px;
+    }
+}

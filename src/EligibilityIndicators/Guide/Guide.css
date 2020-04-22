@@ -1,0 +1,36 @@
+.Guide {
+    background: #f8f8f8;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.Guide>hr {
+    border: 1px solid rgb(47,92,157);
+    width: 12%;
+    float: left;
+    margin-left: 60px;
+}
+.Guide>.container>h1{
+    color: #2f5c9d;
+    font-size: 35px;
+    margin-left: 60px;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+}
+.guideForm{
+    width: 450px !important;
+}
+.guideForm>.getInput>label>input{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.checkbox1{
+    margin-top: 30px;
+}
+@media (max-width: 425px) {
+    .Guide>.container>h1{
+        font-size: 27px !important;
+    }
+}

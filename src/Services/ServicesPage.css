@@ -1,0 +1,42 @@
+.cardiogram{
+    position: relative;
+    width: 91%;
+    height: 200px;
+    margin: 0 auto
+}
+.cardiogram>.hr1 {
+    border: 2.5px solid #2b5c9e;
+    position: absolute;
+    width: 100%;
+    top: 115px;
+}
+/*.cardiogram>img{*/
+/*    position: absolute;*/
+/*    top: -27px;*/
+/*    width: 261px;*/
+/*    right: 210px;*/
+/*}*/
+/*@media (max-width: 768px) {*/
+/*}*/
+/*@media (max-width: 1125px){*/
+
+/*}*/
+/*@media (max-width: 425px){*/
+/*    .cardiogram {*/
+/*        position: relative;*/
+/*        width: 91%;*/
+/*        height: 138px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*    .cardiogram>img {*/
+/*        position: absolute;*/
+/*        top: 0;*/
+/*        width: 178px;*/
+/*        right: 45px;*/
+/*    }*/
+/*    .cardiogram>.hr1 {*/
+/*        border: 1.5px solid #2b5c9e;*/
+/*        width: 48%;*/
+/*        top: 92px;*/
+/*    }*/
+/*}*/

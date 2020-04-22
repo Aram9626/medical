@@ -1,0 +1,159 @@
+.meincontact{
+    width: 80%;
+    position: relative;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /*margin-top: -50px;*/
+}
+.meincontact>.meincontactRow{
+    background: #2f5c9d;
+    height: 100px;
+    width: 100%;
+}
+.coltitle{
+    margin-top:70px;
+}
+.meincontact>.coltitle>.row{
+    margin: 0 -30px;
+}
+.meincontact .fas{
+    font-size: 45px;
+    margin: 27px 14px;
+    color: #ffffff;
+}
+.meincontact span{
+    font-size: 17px;
+    color: #ffffff;
+}
+.coltitle img {
+    width: 100%;
+    height: 100%;
+}
+
+@media  (min-width:992px){
+    .row2>.col-sm{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .colRevers>.col-sm>.title{
+        margin-left: -40px;
+    }
+    .row2>.col-sm>.title{
+        padding-left: 40px;
+    }
+    .meincontact>.coltitle>.row{
+        margin: 0 -15px;
+    }
+}
+
+.coltitle .title{
+    margin-top: 30px;
+}
+.coltitle .title> h1{
+    color:#2f5c9d;
+}
+.coltitle .title> p{
+    color:#6384b5;
+    width: 100%;
+}
+.coltitle .title>a>.btn-info{
+    margin-top: 40px;
+    padding: 7px 40px;
+    margin-bottom: 20px;
+}
+.coltitle .title>div>a> span{
+    color: #17a2b8;
+}
+@media (max-width: 768px) {
+    .meincontact .fas {
+        font-size: 30px !important;
+        margin: 28px 5px;
+        color: #ffffff;
+    }
+    .meincontact span {
+        font-size: 10px !important;
+        color: #ffffff;
+    }
+    .coltitle .title> p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+}
+@media (max-width: 1125px){
+    .meincontact {
+        top: -40px;
+    }
+    .meincontact>.meincontactRow {
+        height: 80px;
+    }
+    .meincontact span {
+        font-size: 12px ;
+    }
+    .meincontact .fas {
+        font-size: 30px;
+        margin: 23px 3px;
+    }
+    .coltitle .title>a>.btn-info {
+        margin-top: 10px;
+        padding: 7px 40px;
+        margin-bottom: 10px;
+    }
+    .coltitle .title> h1 {
+        font-size: 30px;
+    }
+
+}
+@media (min-width: 575px){
+  .colMail{
+      padding: 0 !important;
+  }
+
+}
+@media (min-width: 992px){
+    .coltitle>.colRevers{
+        flex-direction: row-reverse;
+    }
+
+}
+@media (max-width: 991px){
+
+    .coltitle>.row>.colImg{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+
+    .coltitle>.colRevers>.col-sm>img {
+        margin-left: 0;
+    }
+    .meincontact .fas {
+        font-size: 35px !important;
+        margin-left: 35px;
+    }
+    .meincontact span {
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .meincontact .fas {
+        font-size: 45px !important;
+        margin: 17px 5px;
+    }
+    .meincontact span {
+        font-size: 16px !important;
+    }
+    .coltitle>.row>.col-sm>img {
+        width: 100% !important;
+        height: 100%;
+    }
+    .coltitle>.colRevers>.col-sm>img {
+         margin-left: 0;
+    }
+    .coltitle .title> h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,68 @@
+.Client> hr{
+    border: 1px solid rgb(47,92,157);
+    width: 12%;
+    float: left;
+    margin-left: 60px;
+}
+.Client>.container>h1{
+    color: #2f5c9d;
+    font-weight: 400;
+    padding-bottom: 60px;
+    font-size: 40px;
+}
+.Client>.container{
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+.Client>.container>.row{
+    text-align: center;
+}
+.Client>.container>.row>.col-sm>div{
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.125);
+}
+.Client>.container>.row>.col-sm>div:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.Client>.container>.row>.col-sm>div>.fas{
+    color: #50b5df;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.Client>.container>.row>.col-sm>div>.lorem{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+.Client>.container>.row>.col-sm>div>.imgClient{
+    width: 20%;
+    border-radius: 50%;
+    padding: 5px 0;
+}
+.Client>.container>.row>.col-sm>div>p{
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .Client> hr {
+        margin-left: 15px;
+    }
+    .Client>.container>h1 {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 425px) {
+    .Client>.container>h1 {
+        margin-left: 20px !important;
+        font-size: 30px !important;
+    }
+}
+@media (max-width: 768px) {
+    .Client>.container>h1 {
+        margin-left: 40px;
+        font-size: 35px;
+    }
+}

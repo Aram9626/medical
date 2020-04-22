@@ -1,0 +1,98 @@
+.ImmediateService {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(http://localhost:3000/carehover.svg);
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.ImmediateService>.container>.row>.col-md-auto>.iconService{
+    margin-left: -10px;
+}
+.ImmediateService>.container>.row>.col-md-auto>.container{
+    margin-top: 10px;
+}
+.ImmediateService>.container>.row>.col-md-auto>h1 {
+    color: #2f5c9d;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.ImmediateService>.container>.row>.col-md-auto>p {
+    color: #6384b5;
+    width: 390px;
+}
+.fasdiv {
+    text-align: center;
+    font-size: 41px;
+    width: 85px;
+    height: 85px;
+    margin: 20px 0;
+    background-color: #50b5df;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.fasdiv>.fas{
+    margin-top: 22px;
+    color: white;
+}
+.iconTitles>.row>.col-lg-1{
+    max-width: 30px !important;
+}
+.iconTitles>.row>.col-lg-1>div{
+    width: 13px;
+    height: 13px;
+    background: #2f5c9d;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.iconTitles>.row{
+    margin: 15px -40px;
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+    .fasdiv {
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+    }
+    .fasdiv>.fas {
+        margin-top: 18px;
+    }
+}
+@media (max-width: 425px) {
+    .ImmediateService>.container>.row>.col-md-auto>h1 {
+        font-size: 27px !important;
+    }
+    .ImmediateService>.container>.row>.col-md-auto>p {
+        width: 340px;
+        font-size: 86%;
+    }
+    .iconService>.container>.row{
+        flex-wrap: nowrap;
+    }
+    .fasdiv>.fas {
+        margin-top: 4px;
+    }
+    .fasdiv {
+        font-size: 11px;
+        width: 20px;
+        height: 20px;
+        margin: 20px 0;
+    }
+    .iconTitles>.row>.col-lg-1>div {
+        width: 7px;
+        height: 7px;
+        background: #2f5c9d;
+        border-radius: 50%;
+        margin-top: 8px;
+    }
+    .iconTitles>.row>.col{
+        font-size: 80%;
+    }
+    .ImmediateService {
+        background-size:50%;
+        background-position-y: 25%;
+    }
+}
