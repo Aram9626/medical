@@ -17,41 +17,53 @@ export default class Services extends Component{
                     <h4 className='span serviceTitle'>OUR SERVICES</h4>
                     <Row>
                         <Col  xs={4}>
-                            <i className="fas fa-clinic-medical"></i>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <img  src={"service1.png"}/>
+                            </div>
+                            <div>
+                                <p>Available 24/7</p>
                             </div>
                         </Col>
                         <Col  xs={4}>
-                            <i className="fas fa-user-md"></i>
+                            <div className='service2'>
+                                <img  src={"service2.png"}/>
+                            </div>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <p>Nurses & Physicians</p>
                             </div>
                         </Col>
                         <Col  xs={4}>
-                            <i className="fas fa-briefcase-medical"></i>
+                            <div className='service3'>
+                                <img  src={"service3.png"}/>
+                            </div>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <p>Our Counseling Team</p>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col  xs={4}>
-                            <i className="fas fa-heartbeat"></i>
+                            <div className='service4'>
+                                <img  src={"service4.png"}/>
+                            </div>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <p>Patient & Family</p>
                             </div>
                         </Col>
                         <Col  xs={4}>
-                            <i className="fas fa-stethoscope"></i>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <img  src={"service5.png"}/>
+                            </div>
+                            <div>
+                                <p>Volunteer Services</p>
                             </div>
                         </Col>
                         <Col  xs={4}>
-                            <i className="fas fa-procedures"></i>
+                            <div className='service6'>
+                                <img  src={"service6.png"}/>
+                            </div>
                             <div>
-                                <p>IMMEDIATE SERVICE</p>
+                                <p>Personal Care Needs</p>
                             </div>
                         </Col>
                     </Row>

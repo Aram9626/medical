@@ -1,7 +1,7 @@
 .ImmediateService {
     margin-top: 100px;
     padding-bottom: 100px;
-    background-image: url(http://localhost:3000/carehover.svg);
+    background-image: url(http://localhost:3000/careH.png);
     background-repeat: no-repeat;
     background-position:left center;
 }
@@ -31,9 +31,9 @@
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
 }
-.fasdiv>.fas{
-    margin-top: 22px;
-    color: white;
+.fasdiv>img{
+    width: 55%;
+    margin-top: 10px;
 }
 .iconTitles>.row>.col-lg-1{
     max-width: 30px !important;
@@ -47,9 +47,6 @@
 }
 .iconTitles>.row{
     margin: 15px -40px;
-}
-@media (max-width: 1024px) {
-
 }
 @media (max-width: 768px) {
     .fasdiv {

@@ -8,7 +8,7 @@ export default class ContactUs extends Component{
     render() {
         return (
             <div>
-                <Carusel img1={"images/512.jpeg"} />
+                <Carusel img1={"images/511.png"} />
                 <div className='meincontact'>
                     <Contact/>
                 </div>

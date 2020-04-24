@@ -7,7 +7,10 @@ export default class Carusel extends Component{
         return(
             <div className='mein'>
                 <div className='meinheader'>
-                    <img src={window.location.origin+'/'+'logo192.png'} className='img' />
+                    <div>
+                        <img src={window.location.origin+'/'+'component.png'} className='img' />
+                    </div>
+
                 </div>
                 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">

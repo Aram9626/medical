@@ -16,20 +16,20 @@ export default class EligibilityIndicators extends Component{
     render() {
         return (
             <div>
-                <Carusel img1={"555.webp"} title={'ELIGIBILITY INDICATORS'} />
+                <Carusel img1={"images/411.png"} title={'ELIGIBILITY INDICATORS'} />
                 <div className='meincontact'>
                     <Contact/>
                     <div className='contTitle'>
                         If your doctor has determined that a patient has 6 months or less to live, they are able to qualify for hospice care at home.
                     </div>
                 </div>
-                <div className='EIhr'>
-                    <hr/>
+                <div className='cardiogram'>
+                    <img src={'cardiogram.png'}/>
                 </div>
                 <General/>
                 <Disease/>
-                <div className='EIhr'>
-                    <hr/>
+                <div className='cardiogram'>
+                    <img src={'cardiogram.png'}/>
                 </div>
                 <div className='col84'>
                     <Container >

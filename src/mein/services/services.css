@@ -3,25 +3,32 @@
 }
 .services p{
     color: #2f5c9d;
-}
-.services>.container>.row .fas{
-    color: #2f5c9d;
-    font-size: 70px;
-    margin: 30px 0;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
 .services>.container>.row{
     text-align: center;
 }
 .services > .container > .row > .col-4{
-    text-align: -webkit-center;
+    padding-bottom: 40px;
 }
 .serviceTitle {
     margin-left: 110px;
+    padding-bottom: 30px;
+}
+.service2{
+    padding-bottom: 13px;
+}
+.service3{
+    padding-bottom: 5px;
+}
+.service4{
+    padding-bottom: 15px;
+}
+.service6{
+    padding-bottom: 18px;
 }
 @media (max-width: 425px) {
-    .services > .container > .row .fas {
-        font-size: 50px;
-    }
     .serviceTitle {
         font-size: 27px !important;
         margin-left: 30px !important;

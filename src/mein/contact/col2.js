@@ -10,7 +10,7 @@ export default class Col2 extends Component{
         return(
             <Container className='coltitle'>
                 <Row className='colRevers row2'>
-                    <Col sm className='colImg'><img  src={window.location.origin+"/images/121.jpg"}/></Col>
+                    <Col sm className='colImg'><img  src={window.location.origin+"/images/121.png"}/></Col>
                     <Col sm>
                         <div className='title'>
                             <h1>WHO WE ARE</h1>
@@ -27,7 +27,7 @@ export default class Col2 extends Component{
 
                 </Row>
                 <Row className='row2'>
-                    <Col sm className='colImg'><img  src={window.location.origin+"/images/122.jpg"}/></Col>
+                    <Col sm className='colImg'><img  src={window.location.origin+"/images/123.png"}/></Col>
                     <Col sm>
                         <div className='title'>
                             <h1>WHAT WE DO</h1>

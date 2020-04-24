@@ -13,7 +13,7 @@ export default class About extends Component{
     render() {
         return (
             <div>
-                <Carusel img1={"images/112.jpg"} title={'ABOUT US'}/>
+                <Carusel img1={"images/211.png"} title={'ABOUT US'}/>
                 <div className='meincontact'>
                     <Contact/>
                     <Company/>

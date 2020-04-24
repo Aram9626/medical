@@ -54,7 +54,7 @@ export default class GetContact extends Component{
                                     <Button variant="info" type="submit">SEND</Button>
                                 </form>
                         </Col>
-                        <Col sm><img  src={"/images/513.jpeg"}/></Col>
+                        <Col sm><img  src={"/images/512.png"}/></Col>
                     </Row>
                 </Container>
             </div>

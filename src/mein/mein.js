@@ -13,8 +13,8 @@ export default class Mein extends Component{
         return (
             <div >
                 <Carusel
-                    img1={"554.webp"}
-                    img2={"557.webp"}
+                    img1={"/images/111.png"}
+                    img2={"/images/112.png"}
                     title={'BRINGING HEALTH'}
                     subtitle={'TO LIKE FOR THE  WHOLE FAMILY'}
                 />

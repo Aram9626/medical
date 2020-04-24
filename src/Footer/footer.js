@@ -15,8 +15,9 @@ export default class Footer extends Component{
                 </div>
                 <br/>
                 <div className='foot'>
-                    <img src={window.location.origin+'/'+'logo192.png'} className='img' />
+
                     <Container>
+                        <img src={window.location.origin+'/'+'logo.png'} className='img' />
                         <Row>
                             <Col sm>
                                 <div className='footTitle'>

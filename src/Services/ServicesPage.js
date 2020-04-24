@@ -11,14 +11,13 @@ export default class ServicesPage extends Component{
     render() {
         return (
             <div>
-                <Carusel img1={"556.webp"}  title={'SERVICES'}/>
+                <Carusel img1={"images/311.png"}  title={'SERVICES'}/>
                 <div className='meincontact'>
                     <Contact/>
                 </div>
                 <Services/>
                 <div className='cardiogram'>
-                    {/*<img src={'/images/rate.png'}/>*/}
-                    <hr className='hr1'/>
+                    <img src={'cardiogram.png'}/>
                 </div>
                 <Comp1/>
                 <ImmediateService/>

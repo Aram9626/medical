@@ -1,8 +1,9 @@
 .footer{
     background: #2f5c9d;
 }
-.foot>.img{
+.foot>.container>.img{
     margin-left: -70px;
+    padding-bottom: 20px;
 }
 .footer>.hr> hr{
     border:1px solid white;
@@ -80,7 +81,7 @@ a:hover {
         float: none;
         margin-top: 10px;
     }
-    .foot>.img {
+    .foot>.container>.img {
         margin-left: -10px !important;
     }
     .footContact>.row>.col-sm-4 {
@@ -102,7 +103,7 @@ a:hover {
     }
 }
 @media (max-width: 768px) {
-    .foot>.img {
+    .foot>.container>.img {
         margin-left: -20px;
     }
     .contactFooter>.row>.col-md-auto>div  span {
@@ -120,7 +121,7 @@ a:hover {
     /*}*/
 }
 @media (max-width: 1024px){
-    .foot>.img {
+    .foot>.container>.img {
         margin-left: -25px;
     }
     .contactFooter>.row>.col-md-auto>div> span {

@@ -22,7 +22,7 @@ export default class Client extends Component{
                                 <div className='lorem'>
                                     <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
                                 </div>
-                                <img className='imgClient' src={'images/download.jpg'}/>
+                                <img className='imgClient' src={'images/221.png'}/>
                                 <br/>
                                 <p>Jessica Alba</p>
                             </div>
@@ -34,7 +34,7 @@ export default class Client extends Component{
                                 <div className='lorem'>
                                     <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
                                 </div>
-                                <img className='imgClient' src={'images/download.jpg'}/>
+                                <img className='imgClient' src={'images/222.png'}/>
                                 <br/>
                                 <p>Harry Miller</p>
                             </div>
@@ -46,7 +46,7 @@ export default class Client extends Component{
                                 <div className='lorem'>
                                     <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
                                 </div>
-                                <img className='imgClient' src={'images/download.jpg'}/>
+                                <img className='imgClient' src={'images/223.png'}/>
                                 <br/>
                                 <p>John Cook</p>
                             </div>

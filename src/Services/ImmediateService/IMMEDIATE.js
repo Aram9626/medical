@@ -23,37 +23,38 @@ export default class ImmediateService extends Component{
                                     <Row>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-star-of-life"></i>
+                                                <img  src={"service11.png"}/>
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-syringe"></i>
+                                                <img  src={"service12.png"}/>
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-stethoscope"></i>
+                                                <img  src={"service13.png"}/>
+
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-user-md"></i>
+                                                <img  src={"service14.png"}/>
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-briefcase-medical"></i>
+                                                <img  src={"service15.png"}/>
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-pills"></i>
+                                                <img  src={"service16.png"}/>
                                             </div>
                                         </Col>
                                         <Col sm>
                                             <div className='fasdiv'>
-                                                <i className="fas fa-heartbeat"></i>
+                                                <img  src={"service17.png"}/>
                                             </div>
                                         </Col>
                                     </Row>

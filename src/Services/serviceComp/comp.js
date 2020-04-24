@@ -8,8 +8,8 @@ export default class Comp1 extends Component{
     render() {
         return(
             <Container className='coltitle serviceComp'>
-                <Row xs={1} md={2}>
-                    <Col  md="auto" className='colImg'><img  src={"/images/313.jpg"}/></Col>
+                <Row >
+                    <Col lg="6"  xs="auto" className='colImg'><img  src={"/images/321.png"}/></Col>
                     <Col sm>
                         <div className='title'>
                             <h1>WE CARE ABOUT YOU</h1>
