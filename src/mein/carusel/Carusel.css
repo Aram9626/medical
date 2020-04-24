@@ -57,3 +57,16 @@
         font-size: 23px;
     }
 }
+@media (max-width: 1024px) {
+    .carousel-titleHeader>span {
+        font-size: 13px;
+    }
+    .carousel-titleHeader>.caruselTitle>h3 {
+        font-size: 28px;
+    }
+    .carousel-titleHeader>.caruselTitle>p {
+        font-size: 20px;
+        font-weight: 400;
+        width: 220px;
+    }
+}

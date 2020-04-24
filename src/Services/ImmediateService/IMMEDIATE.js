@@ -21,38 +21,38 @@ export default class ImmediateService extends Component{
                             <div className='iconService'>
                                 <Container>
                                     <Row>
-                                        <Col sm>
+                                        <Col xs={1} >
                                             <div className='fasdiv'>
                                                 <img  src={"service11.png"}/>
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service12.png"}/>
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service13.png"}/>
 
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service14.png"}/>
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service15.png"}/>
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service16.png"}/>
                                             </div>
                                         </Col>
-                                        <Col sm>
+                                        <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service17.png"}/>
                                             </div>
