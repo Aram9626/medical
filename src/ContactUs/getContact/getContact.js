@@ -57,6 +57,19 @@ export default class GetContact extends Component{
             })
             .catch(err => {
                 console.error('Oh well, you failed. Here some thoughts on the error that occured:', err)
+                store.addNotification({
+                    title: "Error",
+                    message: "try again",
+                    type: "danger",
+                    insert: "top",
+                    container: "top-right",
+                    animationIn: ["animated", "fadeIn"],
+                    animationOut: ["animated", "fadeOut"],
+                    dismiss: {
+                        duration: 1000,
+                        onScreen: true
+                    }
+                });
             })
     };
     handleChangeInp({ target: { value } }) {
