@@ -17,9 +17,11 @@
 }
 .footTitle{
     width: 85%;
+    padding-bottom: 20px;
+    color: #abbfdc;
 }
 .footNav{
-    width: 250px;
+    width: 100%;
     float: right;
 }
 .footNav>.container>.row>.col-4{
@@ -45,12 +47,6 @@
     padding-left: 0;
     padding-right: 10px;
 }
-/*.contactFooter>.row>.em{*/
-/*    margin-left: -30px;*/
-/*}*/
-/*.contactFooter>.row>.ad{*/
-/*    margin-left: 30px;*/
-/*}*/
 .contactFooter>.row>.col-md-auto>div .fas{
     font-size: 24px;
     color: white;
@@ -64,9 +60,14 @@
 }
 .linkFooter{
     color: white;
+    border-bottom: 1px solid;
 }
 .entTitle{
     color: #abbfdc;
+}
+.entTitle>a{
+    color: white;
+    border-bottom: 1px solid;
 }
 .end{
     text-align: center;
@@ -75,6 +76,11 @@
 a:hover {
     color: #080808 !important;
     text-decoration: none !important;
+}
+@media (max-width: 576px){
+  .footNav>.container{
+      padding-left: 0;
+  }
 }
 @media (max-width: 425px) {
     .footNav {
@@ -116,9 +122,9 @@ a:hover {
     .footContact>.row>.col-sm-4>a>.fab {
         margin-left: 0;
     }
-    /*.contactFooter>.row>.em{*/
-    /*    margin-left: -30px;*/
-    /*}*/
+    .entTitle{
+       font-size: 15px;
+    }
 }
 @media (max-width: 1024px){
     .foot>.container>.img {
@@ -132,8 +138,4 @@ a:hover {
         padding-left: 0;
         padding-right: 10px;
     }
-    /*.contactFooter>.row>.call{*/
-    /*    padding-left: 0;*/
-    /*    padding-right: 10px;*/
-    /*}*/
 }

@@ -47,14 +47,16 @@
     font-weight: 400;
     color: #2f5c9d;
 }
-@media (max-width: 768px){
-    .revers{
-        flex-direction: row-reverse;
-    }
-}
 
 @media (max-width: 488px){
     .revers{
         flex-direction: column-reverse;
+    }
+    .meinheader{
+        height: 40px;
+    }
+    .img {
+        width: 85px;
+        margin: 4px 40px;
     }
 }

@@ -23,3 +23,6 @@
 .col84{
     padding-bottom: 60px;
 }
+.col84>.container>.row>.col-sm-10>.contTitle{
+    text-align: center;
+}

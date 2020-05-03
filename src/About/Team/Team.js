@@ -15,11 +15,11 @@ export default class Team extends Component{
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md="auto">
-                            <h1>ABOUT OUR TEAM</h1>
+                            <h1>Neighborhood Care Hospice Ideology</h1>
                             <div className='lorem'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                Neighborhood Care Hospice provides a high level of care to terminally ill patients with a wide range of diagnosis. We strive in administering comfort and support to individuals who seek compassionate care in their final days of life.
+                                <br/>
+                                Our hospice care focuses on enhancing the patient's comfort and overall quality of life. The care is provided in patient's home or place of residence.
                             </div>
                         </Col>
                     </Row>

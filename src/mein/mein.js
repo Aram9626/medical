@@ -3,7 +3,6 @@ import React,{Component} from 'react';
 import Carusel from "./carusel/Carusel";
 import './mein.css'
 import Services from "./services/services";
-import STAFF from "./STAFF/STAFF";
 import Comp from "./comp/comp";
 import Col2 from "./contact/col2";
 import Contact from "./contact/contact";
@@ -21,13 +20,12 @@ export default class Mein extends Component{
                 <div className='meincontact'>
                     <Contact/>
                     <Col2>
-                        <a href='/AboutUs'>
+                        <a href='/about-us'>
                             <span>see more</span>
                         </a>
                     </Col2>
                 </div>
                 <Services/>
-                <STAFF/>
                 <Comp/>
             </div>
         )

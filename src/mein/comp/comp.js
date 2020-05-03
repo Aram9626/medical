@@ -11,7 +11,7 @@ export default class Comp extends Component{
                     <hr/>
                 </div>
                 <Col3>
-                    <h4 className='span comp6Title'>HOW DOES NEIGHBORHOOD CARE HOSPICE WORK?</h4>
+                    <h4 className='span comp6Title'>How To Get Started</h4>
                 </Col3>
             </div>
         )

@@ -18,10 +18,10 @@ function App() {
         <div className='empty'></div>
       </header>
         <Switch>
-            <Route path='/EligibilityIndicators'  component={EligibilityIndicators} />
-            <Route path='/ContactUs'  component={ContactUs} />
-            <Route path='/Services'  component={ServicesPage} />
-            <Route path='/AboutUs'  component={About} />
+            <Route path='/eligibility-indicators'  component={EligibilityIndicators} />
+            <Route path='/contact-us'  component={ContactUs} />
+            <Route path='/services'  component={ServicesPage} />
+            <Route path='/about-us'  component={About} />
             <Route path='/' exact component={Mein} />
             <Route path="*">
                 <NoMatch />

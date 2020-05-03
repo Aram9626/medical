@@ -5,7 +5,6 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    /*margin-top: -50px;*/
 }
 .meincontact>.meincontactRow{
     background: #2f5c9d;
@@ -23,15 +22,26 @@
     margin: 27px 14px;
     color: #ffffff;
 }
-.meincontact span{
-    font-size: 17px;
-    color: #ffffff;
-}
 .coltitle img {
     width: 100%;
     height: 100%;
 }
-
+.contP{
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 8px;
+    margin-top: 38px;
+}
+.icMap{
+    padding-right: 0 !important;
+}
+.icMap>p{
+    margin-top: 25px;
+}
+.Col-ic{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 @media  (min-width:992px){
     .row2>.col-sm{
         padding-right: 0;
@@ -72,7 +82,7 @@
         margin: 28px 5px;
         color: #ffffff;
     }
-    .meincontact span {
+    .contP{
         font-size: 10px !important;
         color: #ffffff;
     }
@@ -89,12 +99,12 @@
     .meincontact>.meincontactRow {
         height: 80px;
     }
-    .meincontact span {
+    .contP{
         font-size: 12px ;
     }
     .meincontact .fas {
-        font-size: 30px;
-        margin: 23px 3px;
+        font-size: 35px;
+        margin: 23px 10px;
     }
     .coltitle .title>a>.btn-info {
         margin-top: 10px;
@@ -106,17 +116,10 @@
     }
 
 }
-@media (min-width: 575px){
-  .colMail{
-      padding: 0 !important;
-  }
-
-}
 @media (min-width: 992px){
     .coltitle>.colRevers{
         flex-direction: row-reverse;
     }
-
 }
 @media (max-width: 991px){
 
@@ -126,25 +129,25 @@
     }
 }
 @media (max-width: 575px){
+    .meincontact>.meincontactRow {
+        height: 70px;
+    }
 
     .coltitle>.colRevers>.col-sm>img {
         margin-left: 0;
     }
     .meincontact .fas {
         font-size: 35px !important;
-        margin-left: 35px;
+        margin: 18px 10px;
     }
-    .meincontact span {
-        display: none;
+    .meincontact {
+        top: -35px;
     }
 }
 @media (max-width: 425px){
     .meincontact .fas {
-        font-size: 45px !important;
-        margin: 17px 5px;
-    }
-    .meincontact span {
-        font-size: 16px !important;
+        font-size: 35px !important;
+        margin: 18px 15px;
     }
     .coltitle>.row>.col-sm>img {
         width: 100% !important;
@@ -155,5 +158,11 @@
     }
     .coltitle .title> h1 {
         font-size: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .meincontact>.meincontactRow>.row>.col-4{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 }

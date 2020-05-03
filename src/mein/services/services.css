@@ -9,7 +9,7 @@
 .services>.container>.row{
     text-align: center;
 }
-.services > .container > .row > .col-4{
+.services > .container > .row > .col-sm-4{
     padding-bottom: 40px;
 }
 .serviceTitle {

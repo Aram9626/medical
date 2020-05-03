@@ -14,39 +14,23 @@ export default class Company extends Component{
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md="auto">
-                            <h1>ABOUT OUR COMPANY</h1>
+                            <h1>Admission Criteria</h1>
                             <div className='lorem'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                Neighborhood Care Hospice Inc. offers services to patients who have a terminal illness where the goal of treatment is pain management and symptom control with a limited life expectancy as diagnosed by the patient’s physician.
+                                Hospice patients do not have to be homebound. Patients, however, must be aware of their condition and reside within the service area.
                             </div>
                             <br/>
+                            <h1>Coverage</h1>
                             <div className='lorem'>
-                                Why do we use it?
-                                <br/>
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                                Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                Financial coverage is available through the Hospice Medicare Benefit and many private insurance companies.
+                                No person shall be denied services based on age, race, national origin, disease, handicap, religion, gender, color, or sexual orientation.
+                            </div>
+                            <div className='tit'>
+                                Pursuant Title VI of the Civil Rights Act of 1964, Section 504 of the Rehabilitation Act of 1973 and the Age Discrimination Act of 1975, and their implementation regulations, our Agency does not discriminate in the provision of services.
                             </div>
                         </Col>
                     </Row>
                 </Container>
-                {/*<h1>ABOUT OUR COMPANY</h1>*/}
-                {/*<div className='lorem'>*/}
-                {/*        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.*/}
-                {/*        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.*/}
-                {/*        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/}
-                {/*</div>*/}
-                {/*<br/>*/}
-                {/*<div className='lorem'>*/}
-                {/*        Why do we use it?*/}
-                {/*        <br/>*/}
-                {/*        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.*/}
-                {/*        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.*/}
-                {/*        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.*/}
-                {/*        Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).*/}
-                {/*</div>*/}
             </div>
         )
     }

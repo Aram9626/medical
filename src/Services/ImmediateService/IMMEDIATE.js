@@ -28,11 +28,6 @@ export default class ImmediateService extends Component{
                                         </Col>
                                         <Col  xs={1}>
                                             <div className='fasdiv'>
-                                                <img  src={"service12.png"}/>
-                                            </div>
-                                        </Col>
-                                        <Col  xs={1}>
-                                            <div className='fasdiv'>
                                                 <img  src={"service13.png"}/>
 
                                             </div>
@@ -45,11 +40,6 @@ export default class ImmediateService extends Component{
                                         <Col  xs={1}>
                                             <div className='fasdiv'>
                                                 <img  src={"service15.png"}/>
-                                            </div>
-                                        </Col>
-                                        <Col  xs={1}>
-                                            <div className='fasdiv'>
-                                                <img  src={"service16.png"}/>
                                             </div>
                                         </Col>
                                         <Col  xs={1}>
@@ -67,7 +57,7 @@ export default class ImmediateService extends Component{
                                             <Row>
                                                 <Col xs lg="1"><div></div></Col>
                                                 <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</span>
+                                                    <span>Hospice care is a cost-effective alternative to high costs associated with hospitals and traditional institutional care.</span>
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -77,7 +67,7 @@ export default class ImmediateService extends Component{
                                             <Row>
                                                 <Col xs lg="1"><div></div></Col>
                                                 <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                    <span>Hospice care allows terminally ill patients and their families to remain together in the comfort and dignity of their home.</span>
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -87,7 +77,7 @@ export default class ImmediateService extends Component{
                                             <Row>
                                                 <Col xs lg="1"><div></div></Col>
                                                 <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi</span>
+                                                    <span>Hospice care relies on the combined knowledge and skills of an interdisciplinary team of professionals, including physicians, nurses, home care aides, social workers, counselors, and volunteers.</span>
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -97,7 +87,7 @@ export default class ImmediateService extends Component{
                                             <Row>
                                                 <Col xs lg="1"><div></div></Col>
                                                 <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet porttitor venenatis. Nam hendrerit nisi sed sollicitudin .</span>
+                                                    <span>Hospice is the preferred choice of health care delivery for the terminally ill and their patients.</span>
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -107,27 +97,7 @@ export default class ImmediateService extends Component{
                                             <Row>
                                                 <Col xs lg="1"><div></div></Col>
                                                 <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</span>
-                                                </Col>
-                                            </Row>
-                                        </Container>
-                                    </Col>
-                                    <Col xs={12}>
-                                        <Container className='iconTitles'>
-                                            <Row>
-                                                <Col xs lg="1"><div></div></Col>
-                                                <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin. Nulla aliquet porttitor venenatis.</span>
-                                                </Col>
-                                            </Row>
-                                        </Container>
-                                    </Col>
-                                    <Col xs={12}>
-                                        <Container className='iconTitles'>
-                                            <Row>
-                                                <Col xs lg="1"><div></div></Col>
-                                                <Col>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur</span>
+                                                    <span>Hospice treats the person, not the disease; focuses on the family, not the individual; and emphasizes the quality of life, not the duration.</span>
                                                 </Col>
                                             </Row>
                                         </Container>

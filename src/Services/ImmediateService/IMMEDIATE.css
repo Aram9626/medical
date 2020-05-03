@@ -24,8 +24,8 @@
 .fasdiv {
     text-align: center;
     font-size: 41px;
-    width: 85px;
-    height: 85px;
+    width: 95px;
+    height: 95px;
     margin: 20px 0;
     background-color: #50b5df;
     border-radius: 50%;
@@ -33,7 +33,7 @@
 }
 .fasdiv>img{
     width: 55%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .iconTitles>.row>.col-lg-1{
     max-width: 30px !important;
@@ -50,12 +50,12 @@
 }
 @media (min-width: 1025px) {
     .iconService > .container > .row > .col-1 {
-        margin-right: 60px;
+        margin-right: 105px;
     }
 }
 @media (max-width: 1024px) {
     .iconService>.container>.row>.col-1 {
-        margin-right: 55px;
+        margin-right: 80px;
     }
 }
 @media (max-width: 767px) {
@@ -70,35 +70,38 @@
         width: 70px;
         height: 70px;
     }
+    .fasdiv>img{
+        margin-top: 10px;
+    }
     .fasdiv>.fas {
         margin-top: 18px;
     }
     .iconService>.container>.row>.col-1 {
-        margin-right: 40px;
+        margin-right: 45px;
     }
 }
 @media (max-width: 425px) {
     .iconService>.container>.row>.col-1 {
-        margin-right: 18px !important;
+        margin-right: 30px !important;
     }
     .ImmediateService>.container>.row>.col-md-auto>h1 {
         font-size: 27px !important;
     }
     .ImmediateService>.container>.row>.col-md-auto>p {
-        width: 340px;
+        width: 100%;
         font-size: 86%;
     }
     .fasdiv>img {
         width: 55%;
-        margin-top: 5px;
+        margin-top: 8px;
     }
     .fasdiv>.fas {
         margin-top: 4px;
     }
     .fasdiv {
         font-size: 11px;
-        width: 20px;
-        height: 20px;
+        width: 33px;
+        height: 33px;
         margin: 20px 0;
     }
     .iconTitles>.row>.col-lg-1>div {

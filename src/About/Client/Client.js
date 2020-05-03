@@ -11,20 +11,16 @@ export default class Client extends Component{
                 <br/>
                 <hr/>
                 <br/>
-                {/*<br/>*/}
                 <Container>
-                    <h1>WHAT OUR CLIENTS SAYS</h1>
+                    <h1>GET TO KNOW US</h1>
                     <Row>
                         <Col  sm >
                             <div>
                                 <i className="fas fa-quote-left"></i>
                                 <br/>
                                 <div className='lorem'>
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
+                                    <small>Neighnborhood Hospice Care provides an individualized plan of care to meet the physical, emotional and spiritual needs of those dying, and their families.</small>
                                 </div>
-                                <img className='imgClient' src={'images/221.png'}/>
-                                <br/>
-                                <p>Jessica Alba</p>
                             </div>
                         </Col>
                         <Col sm>
@@ -32,11 +28,9 @@ export default class Client extends Component{
                                 <i className="fas fa-quote-left"></i>
                                 <br/>
                                 <div className='lorem'>
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
+                                    <small>We reflect a spirit and philosophy of caring to ensure comfort, dignity and quality of life for each patient under our care.
+                                    </small>
                                 </div>
-                                <img className='imgClient' src={'images/222.png'}/>
-                                <br/>
-                                <p>Harry Miller</p>
                             </div>
                         </Col>
                         <Col  sm>
@@ -44,11 +38,8 @@ export default class Client extends Component{
                                 <i className="fas fa-quote-left"></i>
                                 <br/>
                                 <div className='lorem'>
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
+                                    <small>We respect and respond to the unique differences in families, caregivers, lifestyle values, beliefs, and wishes.</small>
                                 </div>
-                                <img className='imgClient' src={'images/223.png'}/>
-                                <br/>
-                                <p>John Cook</p>
                             </div>
                         </Col>
                     </Row>

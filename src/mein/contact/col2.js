@@ -14,12 +14,15 @@ export default class Col2 extends Component{
                     <Col sm>
                         <div className='title'>
                             <h1>WHO WE ARE</h1>
-                            <p>GIVING YOU QUALITY OF LIFE IN THE FINAL DAYS FOR  YOUR LOVED ONES.</p>
+                            <p>PROVIDING QUALITY HOSPICE CARE SERVICES TO THE COMMUNITY </p>
                             <div>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </small>
+                                <small>Neighborhood Care Hospice provides an individualized plan of care to meet the physical, emotional and spiritual needs of those dying, and their families.
+                                    We reflect a spirit and philosophy of caring to ensure comfort, dignity and quality of life for each patient under our care.
+                                    We respect and respond to the unique differences in families, caregivers, lifestyle values, beliefs, and wishes.
+                                </small>
                                 {this.props.children}
                             </div>
-                            <a href='/ContactUs'>
+                            <a href='/contact-us'>
                                 <Button variant="info">Contact us</Button>
                             </a>
                         </div>
@@ -30,10 +33,12 @@ export default class Col2 extends Component{
                     <Col sm className='colImg'><img  src={window.location.origin+"/images/123.png"}/></Col>
                     <Col sm>
                         <div className='title'>
-                            <h1>WHAT WE DO</h1>
-                            <p>GIVING YOU QUALITY OF LIFE IN THE FINAL DAYS FOR  YOUR LOVED ONES.</p>
+                            <h1>OUR MISSION</h1>
+                            <p>24 / 7  PATIENT CARE</p>
                             <div>
-                            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </small>
+                            <small>Our agency provides an individualized program of physical, emotional, and practical care for people in the last phases of a life-limiting illness, with an emphasis on control of pain and other symptoms.
+                                We recognize the unique physical, emotional, psychological, and spiritual needs of each person receiving hospice care in their home. We strive to extend the highest level of courtesy and service to patients and their families, caregivers, visitors, and each other.
+                            </small>
                                 {this.props.children}
                             </div>
                         </div>

@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './Carusel.css';
-// import '../mein.css';
 
 export default class Carusel extends Component{
     render() {
@@ -8,7 +7,9 @@ export default class Carusel extends Component{
             <div className='mein'>
                 <div className='meinheader'>
                     <div>
-                        <img src={window.location.origin+'/'+'component.png'} className='img' />
+                        <a href='/'>
+                            <img src={window.location.origin+'/'+'component.png'} className='img' />
+                        </a>
                     </div>
 
                 </div>

@@ -16,6 +16,15 @@
 }
 .AOC>.container>.row>.col-md-auto>.lorem{
     font-weight: 500;
+    width: 90%;
+    margin-left: 10px;
+}
+.AOC>.container>.row>.col-md-auto>.tit{
+    margin-top: 37px;
+    font-weight: 700;
+    width: 90%;
+    margin-left: 10px;
+    font-size: 18px;
 }
 @media  (max-width: 425px) {
     .AOC> hr {

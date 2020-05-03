@@ -16,7 +16,7 @@ export default class Services extends Component{
                 <Container>
                     <h4 className='span serviceTitle'>OUR SERVICES</h4>
                     <Row>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div>
                                 <img  src={"service1.png"}/>
                             </div>
@@ -24,7 +24,7 @@ export default class Services extends Component{
                                 <p>Available 24/7</p>
                             </div>
                         </Col>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div className='service2'>
                                 <img  src={"service2.png"}/>
                             </div>
@@ -32,7 +32,7 @@ export default class Services extends Component{
                                 <p>Nurses & Physicians</p>
                             </div>
                         </Col>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div className='service3'>
                                 <img  src={"service3.png"}/>
                             </div>
@@ -42,7 +42,7 @@ export default class Services extends Component{
                         </Col>
                     </Row>
                     <Row>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div className='service4'>
                                 <img  src={"service4.png"}/>
                             </div>
@@ -50,7 +50,7 @@ export default class Services extends Component{
                                 <p>Patient & Family</p>
                             </div>
                         </Col>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div>
                                 <img  src={"service5.png"}/>
                             </div>
@@ -58,7 +58,7 @@ export default class Services extends Component{
                                 <p>Volunteer Services</p>
                             </div>
                         </Col>
-                        <Col  xs={4}>
+                        <Col  sm={4}>
                             <div className='service6'>
                                 <img  src={"service6.png"}/>
                             </div>

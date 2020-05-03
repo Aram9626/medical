@@ -34,14 +34,14 @@ export default class EligibilityIndicators extends Component{
                 <div className='col84'>
                     <Container >
                         <Row>
-                            <Col sm={8}>
+                            <Col sm={10} md={8}>
                                 <div className='contTitle'>
-                                    If you have any questions or concerns if you or your family is eligible.
+                                    Let us treat your loved ones like family.
                                 </div>
                             </Col>
                             <Col md="auto">
-                                <a href='tel:+77700123456'>
-                                    <Button variant="info" className='CallBTN' >CALL US: (818) 818-0000</Button>
+                                <a href='tel:+8189379977'>
+                                    <Button variant="info" className='CallBTN' >CALL US: (818) 937-9977</Button>
                                 </a>
                             </Col>
                         </Row>

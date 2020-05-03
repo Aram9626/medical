@@ -10,14 +10,32 @@ export default class Contact extends Component{
             <Container className='meincontactRow'>
                 <Row >
                     <Col xs={4}><a href='tel:+77700123456'>
-                        <i className="fas fa-phone"></i><span>(818) 661-2588</span></a>
+                        <Container>
+                            <Row>
+                                <Col sm={2} xs={4} className='Col-ic'><i className="fas fa-phone fa-flip-horizontal"></i></Col>
+                                <Col sm={10}><p className='contP'>(818) 937-9977</p></Col>
+                            </Row>
+                        </Container>
+                    </a>
                     </Col>
-                    <Col xs={4} className='colMail'>
+                    <Col xs={4} >
                         <a href='mailto:info@hospicevalley.com'>
-                            <i className="fas fa-envelope"></i><span>info@hospicevalley.com</span>
+                            <Container>
+                                <Row>
+                                    <Col sm={2} xs={4} className='Col-ic'><i className="fas fa-envelope"></i></Col>
+                                    <Col sm={10}><p className='contP'>info@hospicevalley.com</p></Col>
+                                </Row>
+                            </Container>
                         </a>
                     </Col>
-                    <Col xs={4}><i className="fas fa-map-marker-alt"></i><span>17418 Chatsworth St. Granada Hills Los Angeles, CA, USA</span></Col>
+                    <Col xs={4}>
+                        <Container>
+                            <Row>
+                                <Col sm={2} xs={4} className='Col-ic' ><i className="fas fa-map-marker-alt"></i></Col>
+                                <Col sm={10} className='icMap'><p className='contP'>1447 E. Colorado St Glendale, Ca 91205</p></Col>
+                            </Row>
+                        </Container>
+                    </Col>
                 </Row>
             </Container>
         )

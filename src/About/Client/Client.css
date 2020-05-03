@@ -21,10 +21,6 @@
     border-radius: .25rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.125);
 }
-.Client>.container>.row>.col-sm>div:hover {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-}
 .Client>.container>.row>.col-sm>div>.fas{
     color: #50b5df;
     font-size: 30px;
@@ -36,16 +32,6 @@
     margin: 0 auto;
     text-align: left;
 }
-.Client>.container>.row>.col-sm>div>.imgClient{
-    width: 20%;
-    border-radius: 50%;
-    padding: 5px 0;
-}
-.Client>.container>.row>.col-sm>div>p{
-    padding-bottom: 15px;
-    font-weight: 600;
-}
-
 @media (max-width: 1024px) {
     .Client> hr {
         margin-left: 15px;

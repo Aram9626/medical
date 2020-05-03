@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import { Link } from 'react-router-dom'
 import './footer.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -28,23 +27,23 @@ export default class Footer extends Component{
                                 <div className='footNav'>
                                     <Container>
                                         <Row>
-                                            <Col xs={4}>
-                                                <a href="/AboutUs" className='linkFooter' >
+                                            <Col sm={4} className='bottom'>
+                                                <a href="/about-us" className='linkFooter' >
                                                     About us
                                                 </a>
                                             </Col>
-                                            <Col xs={8}>
-                                                <a href="/EligibilityIndicators" className='linkFooter'>
+                                            <Col sm={8} className='bottom'>
+                                                <a href="/eligibility-indicators" className='linkFooter'>
                                                 Eligibility indicators
                                                 </a>
                                             </Col>
-                                            <Col xs={4} className='bottom'>
-                                                <a href="/Services" className='linkFooter'>
+                                            <Col sm={4} className='bottom'>
+                                                <a href="/services" className='linkFooter'>
                                                     Services
                                                 </a>
                                             </Col>
-                                            <Col xs={8} className='bottom'>
-                                                <a href="/ContactUs" className='linkFooter'>
+                                            <Col sm={8} className='bottom'>
+                                                <a href="/contact-us" className='linkFooter'>
                                                     Contact us
                                                 </a>
                                             </Col>
@@ -62,7 +61,7 @@ export default class Footer extends Component{
                                         <Col md="auto" className='call'>
                                             <div>
                                                 <a href='tel:+18186612588'>
-                                                    <i className="fas fa-phone"></i><span className='entTitle'>(818) 661-2588</span>
+                                                    <i className="fas fa-phone fa-flip-horizontal"></i><span className='entTitle'>(818) 661-2588</span>
                                                 </a>
                                             </div>
                                         </Col>
@@ -82,20 +81,20 @@ export default class Footer extends Component{
                                 </Container>
                             </Col>
                             <Col sm={4}>
-                                <a target="_blank" href='https://www.facebook.com/'>
+                                <a target="_blank" href='https://www.facebook.com/' rel="noopener noreferrer">
                                     <i  className="fab fa-facebook-square" ></i>
                                 </a>
-                                <a target="_blank" href='https://twitter.com/'>
+                                <a target="_blank" href='https://twitter.com/' rel="noopener noreferrer">
                                     <i  className="fab fa-twitter-square"></i>
                                 </a>
-                                <a target="_blank" href='https://www.linkedin.com/'>
+                                <a target="_blank" href='https://www.linkedin.com/' rel="noopener noreferrer">
                                     <i  className="fab fa-linkedin"></i>
                                 </a>
                             </Col>
                         </Row>
                     </Container>
                     <hr/>
-                    <div className='end entTitle'>CopyRight  { new Date().getFullYear() }</div>
+                    <div className='end entTitle'>Neighborhood Care Hospice { new Date().getFullYear() } ©. All rights reserved. <a target="_blank" rel="noopener noreferrer" href={'http://ferrosia.com/'}>Developed by Ferrosia</a> </div>
                 </div>
             </div>
         )

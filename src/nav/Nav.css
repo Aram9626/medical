@@ -41,27 +41,3 @@
 .fa-search{
     color:#707070
 }
-.clk{
-    margin-left: 70px;
-    font-size: 25px;
-    cursor: pointer;
-}
-.sub{
-    border-bottom: 0.5px solid gray;
-    padding-bottom: 5px;
-}
-.search{
-    border: white;
-    border-bottom: 0.5px solid gray;
-}
-input:focus{
-    outline: none;
-}
-@media (max-width: 425px) {
-    .search{
-        width: 120px;
-    }
-    .fab{
-        padding: 0 5px;
-    }
-}
