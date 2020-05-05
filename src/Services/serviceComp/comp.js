@@ -12,13 +12,14 @@ export default class Comp1 extends Component{
                     <Col lg="6"  xs="auto" className='colImg'><img  src={"/images/321.png"}/></Col>
                     <Col sm>
                         <div className='title'>
-                            <h1>WE CARE ABOUT YOU</h1>
-                            <p>GIVING YOU QUALITY OF LIFE IN THE FINAL DAYS FOR  YOUR LOVED ONES.</p>
+                            <span>Our services are available 24 hours a day, 7 days a week.</span>
                             <div>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Our hospice nurses and physicians offer help in evaluation for hospice and consider pain and symptom control a priority.
+                                The Following is the list of our medical staff and how they will be assisting you.
+                            </div>
+                            <span>Medical Director</span>
+                            <div>
+                                Our Medical Director leads an interdisciplinary team and develops a plan of care for the patient while providing consultation to physicians and nurses.
                             </div>
                         </div>
                     </Col>
@@ -26,19 +27,42 @@ export default class Comp1 extends Component{
                 <Row>
                     <Col sm>
                         <div className='subtit'>
+                            <span>Physician</span>
                             <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam.
-                                    Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.
-                                    Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque.</p>
-                                <p> Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc.
-                                    Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi.
-                                    Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
-                                    Sed sed lacinia lectus. Duis sit amet sodales felis.
-                                    Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.
-                                    Rrow itself, let it be sorrow; let him love it; let him pursue it, ishing for its acquisitiendum.
-                                    Because he will ab hold, uniess but through concer, and also of those who resist.</p>
-                                <p>Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.
-                                    Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc.Nullam arcu. Aliquam consequat. Curabitur augue lorem </p>
+                                Our physician assesses patient needs and symptoms and prescribes treatment while directing the plan of care.
+                                Our nursing services consists of an admitting nurse, visiting nurse and triage nurse.
+                                They provide continuous care during crisis.
+                            </div>
+                            <span>Nurses</span>
+                            <div>
+                                Our nursing services consists of an admitting nurse, visiting nurse and triage nurse.
+                                They provide general and in-patient care for symptom control and continuous care during crisis.
+                            </div>
+                            <span>Admitting Registered Nurse</span>
+                            <div>
+                                Our admitting registered nurses assess the patient’s and family’s needs and readiness for hospice.
+                                In collaboration with hospice medical director and interdisciplinary team, the registered nurses accept the patient into hospice care.
+                            </div>
+                            <span>Visiting Nurse</span>
+                            <div>
+                                Our visiting nurses are dedicated licensed registered and vocational nurses that perform follow up visits for our routine care patients.
+                                They follow the plan of care established by our interdisciplinary team under the supervision of their case manager.
+                            </div>
+                            <span>Triage Nurse</span>
+                            <div>
+                                Our triage nurses are board certified registered nurses taking phone calls from patients or their families and caregivers after hours, weekends and holidays.
+                            </div>
+                            <div>
+                                Our counseling team provides bereavement support to patients and families as well as an opportunity to talk about the emotional impact of the illness.
+                            </div>
+                            <div>
+                                Spiritual support is available through our coordination with churches, synagogues, mosques and community volunteers.
+                            </div>
+                            <div>
+                                Our hospice provides volunteer services. Volunteers can help run errands, write letters, or just be good listeners.
+                            </div>
+                            <div>
+                                United Hearts Hospice provides home health aide for your personal care needs, such as bathing and feeding.
                             </div>
                         </div>
                     </Col>

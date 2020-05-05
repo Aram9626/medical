@@ -9,10 +9,14 @@ import About from "./About/About";
 import ServicesPage from "./Services/ServicesPage";
 import ContactUs from "./ContactUs/ContactUs";
 import EligibilityIndicators from "./EligibilityIndicators/EligibilityIndicators";
+import 'react-notifications-component/dist/theme.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import ReactNotification from 'react-notifications-component'
 
 function App() {
   return (
     <div className="App">
+        <ReactNotification/>
       <header className="App-header">
         <NavBar/>
         <div className='empty'></div>

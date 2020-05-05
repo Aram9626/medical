@@ -42,6 +42,9 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+.meincontact>.container>.row>.col-sm>.title>div{
+    width: 90%;
+}
 @media  (min-width:992px){
     .row2>.col-sm{
         padding-right: 0;

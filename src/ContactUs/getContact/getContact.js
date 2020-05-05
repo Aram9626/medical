@@ -1,13 +1,13 @@
 import React,{Component} from "react";
+import { withRouter } from "react-router";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
 import './getContact.css'
 import emailjs from 'emailjs-com';
-import ReactNotification from 'react-notifications-component'
 import {store} from 'react-notifications-component';
-import 'react-notifications-component/dist/theme.css'
+
 
 const normalizeInput = (value, previousValue) => {
     if (!value) return value;
@@ -21,7 +21,7 @@ const normalizeInput = (value, previousValue) => {
     }
 };
 
-export default class GetContact extends Component{
+ class GetContact extends Component{
     state={
       name:'',
       email:'',
@@ -42,18 +42,24 @@ export default class GetContact extends Component{
             .then(res => {
             console.log('Email successfully sent!');
                 store.addNotification({
+                    id:'getContact',
                     title: "send succesfuly",
                     message: "thank you",
                     type: "success",
-                    insert: "top",
-                    container: "top-right",
+                    insert: "bottom",
+                    container: "bottom-right",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
-                        duration: 1000,
+                        duration: 2000,
                         onScreen: true
-                    }
+                    },
                 });
+                setTimeout(() => {
+                    this.props.history.push('/');
+
+                }, 2000);
+
             })
             .catch(err => {
                 console.error('Oh well, you failed. Here some thoughts on the error that occured:', err)
@@ -61,12 +67,12 @@ export default class GetContact extends Component{
                     title: "Error",
                     message: "try again",
                     type: "danger",
-                    insert: "top",
-                    container: "top-right",
+                    insert: "bottom",
+                    container: "bottom-right",
                     animationIn: ["animated", "fadeIn"],
                     animationOut: ["animated", "fadeOut"],
                     dismiss: {
-                        duration: 1000,
+                        duration: 2000,
                         onScreen: true
                     }
                 });
@@ -83,8 +89,7 @@ export default class GetContact extends Component{
                 </div>
                 <br/>
                 <Container >
-                    <h1>LET US TREAT YOUR LOVED ONES LIKE FAMILY</h1>
-                    <ReactNotification />
+                    <h1>GET IN TOUCH WITH US</h1>
                     <Row>
                         <Col sm>
                                 <form className='getInput' onSubmit={e=>this.handleSubmit(e)}>
@@ -117,3 +122,4 @@ export default class GetContact extends Component{
         )
     }
 }
+export default withRouter(GetContact)

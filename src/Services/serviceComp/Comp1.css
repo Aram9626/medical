@@ -3,11 +3,19 @@
     margin-left: 60px;
     margin-top: 60px;
 }
+.serviceComp>.row>.col-sm>div>span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #2f5c9d;
+}
+.serviceComp>.row>.col-sm>div>div{
+    padding-bottom: 9px;
+}
 .serviceComp>.row>.col-sm>.subtit{
     margin-top: 30px;
 }
-.serviceComp>.row>.col-sm>.subtit p{
-    margin-bottom: 0;
+.serviceComp>.row>.col-sm>.subtit>div{
+    padding-bottom: 30px;
 }
 @media (max-width: 425px) {
     .serviceComp>.row>.col-sm>.title {
@@ -23,5 +31,10 @@
     .serviceComp>.row>.col-sm>.title {
         width: 100%;
         margin-left: 0;
+    }
+}
+@media (max-width: 991px){
+    .serviceComp>.row>.col-sm>div>div {
+        padding-bottom: 30px;
     }
 }

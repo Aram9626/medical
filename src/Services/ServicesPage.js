@@ -23,6 +23,8 @@ export default class ServicesPage extends Component{
                 <div className='cardiogram'>
                     <img src={'cardiogram.png'}/>
                 </div>
+                <Comp1/>
+                <ImmediateService/>
                 <div className='col84'>
                     <Container >
                         <Row>
@@ -39,8 +41,6 @@ export default class ServicesPage extends Component{
                         </Row>
                     </Container>
                 </div>
-                <Comp1/>
-                <ImmediateService/>
             </div>
         )
     }

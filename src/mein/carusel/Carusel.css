@@ -27,6 +27,11 @@
     font-weight: 400;
     width: 240px;
 }
+.carousel-titleHeader>span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .carousel-hr{
     position: absolute;
     right: 0%;
