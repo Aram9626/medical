@@ -1,6 +1,6 @@
 .AOC{
     margin-top: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 .AOC> hr{
     border: 1px solid rgb(47,92,157);
@@ -10,21 +10,11 @@
 }
 .AOC>.container>.row>.col-md-auto>h1{
     color: #2f5c9d;
-    margin-left: 10px;
     font-weight: 400;
     padding-bottom: 50px;
 }
 .AOC>.container>.row>.col-md-auto>.lorem{
     font-weight: 500;
-    width: 90%;
-    margin-left: 10px;
-}
-.AOC>.container>.row>.col-md-auto>.tit{
-    margin-top: 37px;
-    font-weight: 700;
-    width: 90%;
-    margin-left: 10px;
-    font-size: 18px;
 }
 @media  (max-width: 425px) {
     .AOC> hr {

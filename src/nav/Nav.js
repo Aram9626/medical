@@ -3,6 +3,9 @@ import { withRouter } from "react-router";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'
 import './Nav.css'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
  class NavBar extends Component{
     render() {
@@ -21,15 +24,21 @@ import './Nav.css'
                     </Navbar.Collapse>
                 </Navbar>
                 <span className='icons'>
-                     <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/'>
-                         <i  className="fab fa-facebook-square" ></i>
-                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/'>
-                        <i  className="fab fa-twitter-square"></i>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/'>
-                        <i  className="fab fa-linkedin"></i>
-                    </a>
+                     <Container >
+                          <Row>
+                              <Col md="auto" >
+                                  <div>
+                                      <i className="fas fa-phone fa-flip-horizontal"></i><span>(818) 937-9977</span>
+                                  </div>
+                              </Col>
+
+                              <Col md="auto">
+                                  <div>
+                                      |<i className="fas fa-map-marker-alt"></i><span> 17418 Chatsworth St. Granada Hills, Los Angeles, CA, USA</span>
+                                  </div>
+                              </Col>
+                          </Row>
+                     </Container>
                 </span>
             </div>
         )

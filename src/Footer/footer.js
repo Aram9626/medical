@@ -16,7 +16,9 @@ export default class Footer extends Component{
                 <div className='foot'>
 
                     <Container>
+                        <a href='/'>
                         <img src={window.location.origin+'/'+'logo.png'} className='img' />
+                        </a>
                         <Row>
                             <Col sm>
                                 <div className='footTitle'>
@@ -60,15 +62,15 @@ export default class Footer extends Component{
                                     <Row>
                                         <Col md="auto" className='call'>
                                             <div>
-                                                <a href='tel:+18186612588'>
-                                                    <i className="fas fa-phone fa-flip-horizontal"></i><span className='entTitle'>(818) 661-2588</span>
+                                                <a href='tel:+8189379977'>
+                                                    <i className="fas fa-phone fa-flip-horizontal"></i><span className='entTitle'>(818) 937-9977</span>
                                                 </a>
                                             </div>
                                         </Col>
                                         <Col md="auto" className='em'>
                                             <div>
-                                                <a href='mailto:info@hospicevalley.com'>
-                                                    <i className="fas fa-envelope"></i><span className='entTitle'>info@hospicevalley.com</span>
+                                                <a href='mailto:Info@neighborhoodch.com'>
+                                                    <i className="fas fa-envelope"></i><span className='entTitle'>Info@neighborhoodch.com</span>
                                                 </a>
                                             </div>
                                         </Col>

@@ -16,8 +16,7 @@ export default class ImmediateService extends Component{
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md="auto">
-                            <h1>IMMEDIATE SERVICE</h1>
-                            <p>GIVING YOU QUALITY OF LIFE IN THE FINAL DAYS FOR YOUR LOVED ONES.</p>
+                            <h1>Advantages of Hospice Care</h1>
                             <div className='iconService'>
                                 <Container>
                                     <Row>

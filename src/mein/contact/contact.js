@@ -9,7 +9,7 @@ export default class Contact extends Component{
         return(
             <Container className='meincontactRow'>
                 <Row >
-                    <Col xs={4}><a href='tel:+77700123456'>
+                    <Col xs={4}><a href='tel:+8189379977'>
                         <Container>
                             <Row>
                                 <Col sm={2} xs={4} className='Col-ic'><i className="fas fa-phone fa-flip-horizontal"></i></Col>
@@ -23,7 +23,7 @@ export default class Contact extends Component{
                             <Container>
                                 <Row>
                                     <Col sm={2} xs={4} className='Col-ic'><i className="fas fa-envelope"></i></Col>
-                                    <Col sm={10}><p className='contP'>info@hospicevalley.com</p></Col>
+                                    <Col sm={10}><p className='contP'>Info@neighborhoodch.com</p></Col>
                                 </Row>
                             </Container>
                         </a>

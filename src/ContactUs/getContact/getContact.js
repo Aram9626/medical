@@ -83,7 +83,7 @@ export default class GetContact extends Component{
                 </div>
                 <br/>
                 <Container >
-                    <h1>GET IN TOUCH WITH US</h1>
+                    <h1>LET US TREAT YOUR LOVED ONES LIKE FAMILY</h1>
                     <ReactNotification />
                     <Row>
                         <Col sm>

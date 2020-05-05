@@ -73,9 +73,6 @@
     padding: 7px 40px;
     margin-bottom: 20px;
 }
-.coltitle .title>div>a> span{
-    color: #17a2b8;
-}
 @media (max-width: 768px) {
     .meincontact .fas {
         font-size: 30px !important;
@@ -129,6 +126,9 @@
     }
 }
 @media (max-width: 575px){
+    .contP{
+       display: none;
+    }
     .meincontact>.meincontactRow {
         height: 70px;
     }

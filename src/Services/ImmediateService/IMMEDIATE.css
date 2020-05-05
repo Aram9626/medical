@@ -17,10 +17,6 @@
     padding-bottom: 20px;
     font-size: 35px;
 }
-.ImmediateService>.container>.row>.col-md-auto>p {
-    color: #6384b5;
-    width: 390px;
-}
 .fasdiv {
     text-align: center;
     font-size: 41px;
@@ -86,10 +82,6 @@
     }
     .ImmediateService>.container>.row>.col-md-auto>h1 {
         font-size: 27px !important;
-    }
-    .ImmediateService>.container>.row>.col-md-auto>p {
-        width: 100%;
-        font-size: 86%;
     }
     .fasdiv>img {
         width: 55%;

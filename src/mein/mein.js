@@ -19,11 +19,7 @@ export default class Mein extends Component{
                 />
                 <div className='meincontact'>
                     <Contact/>
-                    <Col2>
-                        <a href='/about-us'>
-                            <span>see more</span>
-                        </a>
-                    </Col2>
+                    <Col2/>
                 </div>
                 <Services/>
                 <Comp/>

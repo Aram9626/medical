@@ -20,11 +20,7 @@ export default class Col2 extends Component{
                                     We reflect a spirit and philosophy of caring to ensure comfort, dignity and quality of life for each patient under our care.
                                     We respect and respond to the unique differences in families, caregivers, lifestyle values, beliefs, and wishes.
                                 </small>
-                                {this.props.children}
                             </div>
-                            <a href='/contact-us'>
-                                <Button variant="info">Contact us</Button>
-                            </a>
                         </div>
                     </Col>
 
@@ -39,7 +35,6 @@ export default class Col2 extends Component{
                             <small>Our agency provides an individualized program of physical, emotional, and practical care for people in the last phases of a life-limiting illness, with an emphasis on control of pain and other symptoms.
                                 We recognize the unique physical, emotional, psychological, and spiritual needs of each person receiving hospice care in their home. We strive to extend the highest level of courtesy and service to patients and their families, caregivers, visitors, and each other.
                             </small>
-                                {this.props.children}
                             </div>
                         </div>
                     </Col>
