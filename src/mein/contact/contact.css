@@ -29,14 +29,10 @@
 .contP{
     font-size: 17px;
     color: #ffffff;
-    margin-left: 8px;
     margin-top: 38px;
 }
 .icMap{
     padding-right: 0 !important;
-}
-.icMap>p{
-    margin-top: 25px;
 }
 .Col-ic{
     padding-left: 0 !important;
@@ -115,6 +111,21 @@
         font-size: 30px;
     }
 
+}
+@media (max-width: 1291px){
+    .contP {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 1160px){
+    .contP {
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 1095px){
+    .contP {
+        font-size: 13px !important;
+    }
 }
 @media (min-width: 992px){
     .coltitle>.colRevers{

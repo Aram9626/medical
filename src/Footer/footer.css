@@ -33,11 +33,11 @@
 .footContact{
     margin-top: 35px;
 }
-.footContact>.row>.col-sm-4{
+.footContact>.row>.col-sm-2{
     text-align: right;
     padding-right: 0;
 }
-.footContact>.row>.col-sm-4>a>.fab{
+.footContact>.row>.col-sm-2>a>.fab{
     margin-left: 25px;
     font-size: 24px;
     color: white;
@@ -45,7 +45,7 @@
 }
 .contactFooter>.row>.col-md-auto{
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .contactFooter>.row>.col-md-auto>div .fas{
     font-size: 24px;
@@ -90,7 +90,7 @@ a:hover {
     .foot>.container>a>.img {
         margin-left: -10px !important;
     }
-    .footContact>.row>.col-sm-4 {
+    .footContact>.row>.col-sm-2 {
         text-align: left;
         margin-left: -10px;
         margin-top: 10px;
@@ -119,7 +119,7 @@ a:hover {
     .contactFooter>.row>.col-md-auto>div .fas {
         font-size: 18px;
     }
-    .footContact>.row>.col-sm-4>a>.fab {
+    .footContact>.row>.col-sm-2>a>.fab {
         margin-left: 10px;
     }
     .entTitle{

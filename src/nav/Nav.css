@@ -23,9 +23,19 @@
     top: 15px;
     text-align: right;
 }
+.icons>.container>.row>.col-md-auto>div>a{
+
+}
+.icons>.container>.row>.col-md-auto>div>a> .fas{
+    margin: 0 5px;
+    color: #2f5c9d;
+}
 .icons>.container>.row>.col-md-auto>div> .fas{
     margin: 0 5px;
     color: #2f5c9d;
+}
+.icons>.container>.row>.col-md-auto>div>a>span{
+    color: #474747;
 }
 .icons>.container>.row>.col-md-auto>div>span{
     color: #474747;
